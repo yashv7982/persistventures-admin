@@ -1,0 +1,32 @@
+.dashboard-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header at the top */
+  .dashboard-layout > header {
+    flex: 0 0 auto;
+  }
+  
+  /* Sidebar + main content */
+  .dashboard-content {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  
+  /* Sidebar styles */
+  .dashboard-content > aside {
+    width: 250px;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Main area styles */
+  .dashboard-main {
+    flex: 1 1 auto;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
